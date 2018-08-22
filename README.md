@@ -9,7 +9,7 @@
 
   ```docker build -t oracle-xe:11g .```
 
-- Gerar seu container a partir da imagem carregada
+- Criar seu container a partir da imagem
 
   ```docker run -idt -p 1521:1521 -h myoracle --name oracle -v /$(pwd)/scripts:/u01/app/oracle/scripts -v /$(pwd)/datafile:/u01/app/oracle/datafile oracle-xe:11g```
 
