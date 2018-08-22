@@ -4,7 +4,7 @@
 - O Docker deve estar instalado e funcionando.
 - Dentro das configurações do Docker, é necessário compartilhar o driver em que a pasta Oracle11g estiver para que o Docker consiga acessar o diretório e montar o volume.
 - Utilizar um bash de sua preferência.
-- Abrir o bash de dentro da pasta Oracle11g.
+- Abrir o bash de dentro da pasta docker-oracle-xe-11g.
 - Build da imagem 
 
   ```docker build -t oracle-xe:11g .```
