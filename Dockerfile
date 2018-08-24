@@ -21,4 +21,4 @@ ENV LD_LIBRARY=XE;
 
 WORKDIR /u01/app/oracle
 
-CMD [ "sh", "-c", "./scripts/script.sh && /bin/bash"]
+CMD [ "sh", "-c", "chmod -R 777 /u01/app/oracle/scripts/script.sh && ./scripts/script.sh && /bin/bash"]
